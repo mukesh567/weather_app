@@ -2,7 +2,7 @@ import { useState, useEffect, ChangeEvent } from 'react'
 
 import { optionType, forecastType } from './../types/index'
 
-const BASE_URL = 'http://api.openweathermap.org'
+const BASE_URL = 'https://api.openweathermap.org'
 
 //http://api.openweathermap.org/geo/1.0/direct?q={city name},{state code},{country code}&limit={limit}&appid={API key}
 
